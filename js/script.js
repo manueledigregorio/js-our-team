@@ -50,8 +50,8 @@ const colonnaCard = document.querySelector('.row');
  colonnaCard.innerHTML +=
 
   `<div class="col mt-4">
-  <div class="card text-center " style="width: 18rem;">
-    <img src="img/${utente.foto }" class="card-img-top" alt="...">
+  <div class="card border border-0 radius text-center " style="width: 18rem;">
+    <img src="img/${utente.foto }" class="card-img-top radius" alt="...">
     <div class="card-body">
       <h5 class="card-title">${utente.nome}</h5>
       <p class="card-text">${utente.ruolo}</p>

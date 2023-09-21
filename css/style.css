@@ -1,0 +1,13 @@
+body{
+
+  background-color: #F5F5F1;
+}
+
+.row{
+  max-width: 1000px;
+}
+
+.radius{
+
+  border-radius: 0px;
+}
