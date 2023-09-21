@@ -1,3 +1,4 @@
+//creo un'array di oggetti
 const team = [
   {
     nome: 'Wayne Barnett',
@@ -36,17 +37,18 @@ const team = [
   },
  
 ];
+//controllo tramite indice cioè 0 in questo caso
  console.log(team[0].nome)
  console.log(team[0].ruolo)
  console.log(team[0].foto)
-
+// cicliamo per quante volte è lungo l'array di oggetti 
  for (const utente of team){
 
   console.log(utente.nome);
   console.log(utente.ruolo);
   console.log(utente.foto);
-  
-const colonnaCard = document.querySelector('.row');
+  // seleziono la classe row e stampo su html per quanto è lungo team
+  const colonnaCard = document.querySelector('.row');
  colonnaCard.innerHTML +=
 
   `<div class="col mt-4">
